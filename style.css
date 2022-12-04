@@ -6,7 +6,7 @@ font-family: 'Open Sans', sans-serif;
 body {background-color: blue;
 }
 * {margin: 0;
-   padding: 0 ;
+   padding: 0px ;
    box-sizing: border-box;
    font-family: 'Open Sans', sans-serif;
 }
@@ -17,14 +17,17 @@ body {background-color: blue;
     margin: 2rem;
 }
 .seccionH1 {
+    width: 100%;
     background-color: aliceblue;
+    padding: 0px;
     border: 2px dashed red ;
 }
 .seccionH1 .claseH1 {
     font-size: medium;
 }
 
-h1 {
+.tituloInicio {
+    height: 50px;
     color: brown;
     border: 7px dashed red;
     border-style: double;
@@ -51,4 +54,11 @@ p {text-align: center;
 .iconoFaceBook:hover {
     color: red;
     background-color: brown;
+}
+.nav_item {
+    display: inline;
+    
+}
+.nav_item :hover {
+    background-color: rgb(199, 127, 32)
 }
